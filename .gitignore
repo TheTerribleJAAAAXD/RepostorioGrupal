@@ -9,4 +9,3 @@ venv/
 # Ignorar otros archivos específicos de configuración
 .DS_Store
 *.log
-
