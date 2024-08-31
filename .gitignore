@@ -1,69 +1,11 @@
-# Byte-compiled / optimized / DLL files
+# Ignorar archivos de Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environment
+# Ignorar entornos virtuales
 venv/
-ENV/
-env/
 .env
-.venv
-.venv/
 
-# Pytest
-.pytest_cache/
-
-# MyPy
-.mypy_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Editor directories and files
-.vscode/
-.idea/
-.spyderproject
-.spyproject
-.ropeproject
-
-# Log files
-*.log
-
-# MacOS metadata
+# Ignorar otros archivos específicos de configuración
 .DS_Store
-
-# Linux directory files
-.directory
+*.log
